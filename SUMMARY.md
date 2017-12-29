@@ -1,3 +1,7 @@
+<a id="mathematica-tutorial" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+# **Mathematica Tutorial**
+
 <a id="using-mathematica" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # Using Mathematica
