@@ -171,3 +171,5 @@
 ## Modeling
 
 * [Molecular Modeling](posts/chemical-modeling/modeling/3.6.1-molecular-modeling.md)
+
+* [Molecular Modeling2](posts/chemical-modeling/modeling/3.6.1-molecular-modeling.md)

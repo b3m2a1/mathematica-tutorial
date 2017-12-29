@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     34189,        887]
-NotebookOptionsPosition[     26117,        744]
-NotebookOutlinePosition[     26547,        761]
-CellTagsIndexPosition[     26504,        758]
+NotebookDataLength[     34624,        901]
+NotebookOptionsPosition[     26426,        755]
+NotebookOutlinePosition[     26856,        772]
+CellTagsIndexPosition[     26813,        769]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -731,13 +731,24 @@ Cell[CellGroupData[{
 
 Cell["Modeling", "Subsection",ExpressionUUID->"2eb5ffdb-192d-40b2-afde-85378e389cfc"],
 
+Cell[CellGroupData[{
+
 Cell[TextData[ButtonBox["Molecular Modeling",
  BaseStyle->"Hyperlink",
  ButtonData->{
    FrontEnd`FileName[{
     "posts", "", "chemical-modeling", "modeling", 
      "3.6.1-molecular-modeling.md"}], None}]], "Item",ExpressionUUID->\
-"c90205a6-e0b8-4e77-98c9-a615336a33f9"]
+"c90205a6-e0b8-4e77-98c9-a615336a33f9"],
+
+Cell[TextData[ButtonBox["Molecular Modeling2",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   FrontEnd`FileName[{
+    "posts", "", "chemical-modeling", "modeling", 
+     "3.6.1-molecular-modeling.md"}], None}]], "Item",ExpressionUUID->\
+"d6da9cb1-1af7-4864-a65f-95fb3efacab1"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -885,7 +896,10 @@ Cell[25389, 719, 280, 6, 32, "Item",ExpressionUUID->"0d2fdf06-460b-4c2a-99e6-8de
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[25718, 731, 85, 0, 52, "Subsection",ExpressionUUID->"2eb5ffdb-192d-40b2-afde-85378e389cfc"],
-Cell[25806, 733, 271, 6, 32, "Item",ExpressionUUID->"c90205a6-e0b8-4e77-98c9-a615336a33f9"]
+Cell[CellGroupData[{
+Cell[25828, 735, 271, 6, 32, "Item",ExpressionUUID->"c90205a6-e0b8-4e77-98c9-a615336a33f9"],
+Cell[26102, 743, 272, 6, 32, "Item",ExpressionUUID->"d6da9cb1-1af7-4864-a65f-95fb3efacab1"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
