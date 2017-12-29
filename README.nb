@@ -1,0 +1,159 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5107,        151]
+NotebookOptionsPosition[      3869,        122]
+NotebookOutlinePosition[      4301,        139]
+CellTagsIndexPosition[      4258,        136]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["About", "Subsubsection",
+ CellChangeTimes->{{3.723575432370235*^9, 
+  3.723575433018693*^9}},ExpressionUUID->"aa4f242f-bfe9-4e5f-b80f-\
+5149f2d549c0"],
+
+Cell["\<\
+This is a brief Mathematica tutorial, written for a group of people I knew\
+\>", "Text",
+ CellChangeTimes->{{3.7235754343627663`*^9, 
+  3.723575465250388*^9}},ExpressionUUID->"1c8886db-0129-4e80-bfc0-\
+629139da126c"],
+
+Cell[TextData[{
+ "The web version of it can be found here: ",
+ ButtonBox["b3m2a1.testing/tutorial/main.html",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://www.wolframcloud.com/app/objects/b3m2a1.testing/tutorial/\
+main.html"], None},
+  ButtonNote->
+   "https://www.wolframcloud.com/app/objects/b3m2a1.testing/tutorial/main.\
+html"]
+}], "Text",
+ CellChangeTimes->{{3.723053638797133*^9, 3.7230536788281107`*^9}, {
+  3.723053715605769*^9, 3.723053740018835*^9}, {3.723347081617103*^9, 
+  3.7233470849404087`*^9}, {3.72357554712059*^9, 3.723575571990465*^9}, {
+  3.723575614511504*^9, 
+  3.723575628577853*^9}},ExpressionUUID->"f46fba92-a533-46e2-90fb-\
+0fb02aa4a5e5"],
+
+Cell[TextData[{
+ "It was built via the ",
+ Cell[BoxData[
+ "SiteBuilder"], "InlineInput",ExpressionUUID->
+  "995fdec4-9456-4e29-91cc-a848d3cbb8c3"],
+ " subpackage of ",
+ ButtonBox["BTools",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://github.com/b3m2a1/mathematica-BTools"], None},
+  ButtonNote->"https://github.com/b3m2a1/mathematica-BTools"]
+}], "Text",
+ CellChangeTimes->{{3.723053638797133*^9, 3.7230536788281107`*^9}, {
+  3.723053715605769*^9, 3.723053740018835*^9}, {3.723347081617103*^9, 
+  3.7233470849404087`*^9}, {3.72357554712059*^9, 
+  3.723575578904366*^9}},ExpressionUUID->"5ea4a933-007d-4343-8ed5-\
+b64cfabfda75"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Errors", "Subsubsection",
+ CellChangeTimes->{{3.7235754763617773`*^9, 3.7235754811617603`*^9}, {
+  3.723575519809922*^9, 
+  3.723575523393017*^9}},ExpressionUUID->"c807cb54-9e01-436f-8e7f-\
+2fc0adc36b7a"],
+
+Cell["\<\
+This tutorial was written very quickly. There are undoubtedly errors in it. \
+Please feel free to report any to me and I\[CloseCurlyQuote]ll try to correct \
+them at my soonest convenience\
+\>", "Text",
+ CellChangeTimes->{{3.72357548255385*^9, 
+  3.7235755283934383`*^9}},ExpressionUUID->"cbfc92b1-955d-4c22-a46f-\
+4d8e567e5ca3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Contact / Utilities", "Subsubsection",
+ CellChangeTimes->{{3.723575582497449*^9, 
+  3.723575586032494*^9}},ExpressionUUID->"1142213a-7f49-4b8c-a9fb-\
+37aeb16ff501"],
+
+Cell[TextData[{
+ "You can contact the author at ",
+ ButtonBox["b3m2a1@gmail.com",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["mailto:b3m2a1@gmail.com"], None},
+  ButtonNote->"mailto:b3m2a1@gmail.com"]
+}], "Text",
+ CellChangeTimes->{{3.723200460994474*^9, 3.7232004720586452`*^9}, {
+  3.7233470990327806`*^9, 
+  3.723347099037421*^9}},ExpressionUUID->"1b75f7f9-0a21-41f2-b95f-\
+9154af9cde96"],
+
+Cell[TextData[{
+ "A collection of utilities can be found at ",
+ ButtonBox["github.com/b3m2a1",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://github.com/b3m2a1"], None},
+  ButtonNote->"https://github.com/b3m2a1"]
+}], "Text",
+ CellChangeTimes->{{3.723347100701379*^9, 
+  3.723347145417964*^9}},ExpressionUUID->"737ad4e5-4a7c-4c4a-9c21-\
+a39cc902027b"]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{23, Automatic}, {22, Automatic}},
+FrontEndVersion->"11.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+10, 2017)",
+StyleDefinitions->FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 156, 3, 51, "Subsubsection",ExpressionUUID->"aa4f242f-bfe9-4e5f-b80f-5149f2d549c0"],
+Cell[739, 27, 226, 5, 35, "Text",ExpressionUUID->"1c8886db-0129-4e80-bfc0-629139da126c"],
+Cell[968, 34, 679, 16, 35, "Text",ExpressionUUID->"f46fba92-a533-46e2-90fb-0fb02aa4a5e5"],
+Cell[1650, 52, 641, 16, 35, "Text",ExpressionUUID->"5ea4a933-007d-4343-8ed5-b64cfabfda75"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2328, 73, 210, 4, 51, "Subsubsection",ExpressionUUID->"c807cb54-9e01-436f-8e7f-2fc0adc36b7a"],
+Cell[2541, 79, 339, 7, 58, "Text",ExpressionUUID->"cbfc92b1-955d-4c22-a46f-4d8e567e5ca3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2917, 91, 170, 3, 51, "Subsubsection",ExpressionUUID->"1142213a-7f49-4b8c-a9fb-37aeb16ff501"],
+Cell[3090, 96, 398, 11, 35, "Text",ExpressionUUID->"1b75f7f9-0a21-41f2-b95f-9154af9cde96"],
+Cell[3491, 109, 362, 10, 35, "Text",ExpressionUUID->"737ad4e5-4a7c-4c4a-9c21-a39cc902027b"]
+}, Open  ]]
+}
+]
+*)
+

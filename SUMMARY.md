@@ -1,8 +1,3 @@
-Title: Table Of Contents
-Date: 2017-12-29 15:46:39
-Modified: 2017-12-29 17:27:50
-Slug: toc
-
 <a id="using-mathematica" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # Using Mathematica
