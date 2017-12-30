@@ -1,8 +1,3 @@
-Title: About
-Date: 2017-12-24 09:21:43
-Modified: 2017-12-29 17:33:50
-Slug: about
-
 ### About
 
 This is a brief Mathematica tutorial, written for a group of people I knew
